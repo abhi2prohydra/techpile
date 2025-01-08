@@ -1,0 +1,43 @@
+:root{
+  --tp-theme-light: #f5f8f9;
+  --tp-bg-orange: #ff6600;
+  --tp-footer:#2a2d2f;
+  --slider-bg:#01559d;
+}
+.orange-tpt{
+  color: var(--tp-bg-orange);
+}
+.orange-bg-tpt{
+  background-color: var(--tp-bg-orange);
+  color: white;
+}
+.light-bg{
+  background-color: var(--tp-theme-light);
+}
+.nav-link{
+  font-size: 0.8em !important;
+}
+.sl-bg{
+  background-color: var(--slider-bg);
+}
+.box{
+  width: 240px;
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  
+}
+.box:hover{
+  background-color: rgba(173, 255, 251, 0.995);
+  
+  transition: 0.3s;
+
+  
+}
+.outer:hover{
+    transform: scale(1.05) ;
+    transition: 0.3s;
+}
+
